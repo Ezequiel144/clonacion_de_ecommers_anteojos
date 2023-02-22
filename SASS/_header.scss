@@ -5,6 +5,7 @@
 
 .box1{
     color: grey;
+    /* border: 1px solid red; */
     &__text1{
         display: block;
         margin: 10px 0;
@@ -86,6 +87,9 @@
         /* border: 1px solid firebrick; */
         width: 45%;
         margin: 0 auto;
+        .nav{
+            display: none;
+        }
         &__menu{
             border: 1px solid rgb(220, 219, 219);
             border-radius: 5px;
@@ -105,6 +109,81 @@
             cursor: pointer;
         }
     
+    }
+    @media (min-width:800px) {
+        position: relative;
+        padding: 15px;
+        &__800px{
+            /* border: 1px solid gray; */
+            display: inline-block;
+            position: absolute;
+        }
+        &__text1{
+            /* border: 1px solid greenyellow; */
+            text-align: left;
+        }
+        /* &__cont{
+            border: 1px solid blue;
+        } */
+        &__cont2{
+            display: inline-block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin: 5px;
+            /* border: 1px solid red; */
+            
+            &__user{
+                position: relative;
+                left: 88%;
+                margin-bottom: 10px;
+            }
+            &__cart{
+                padding: 5px 20px;
+                width: 130px;
+                &__img{
+                    width: 20px;
+                }
+            }
+        }
+        &__liner{
+            width: 50%;
+        }
+    }
+    @media (min-width: 1000px) {
+        &__directitle{
+            /* border: 1px solid green; */
+            width: 500px;
+        }
+        &__title{
+            font-size: 4rem;
+        }
+        &__cont3{
+            .nav{
+                display: block;
+                /* border: 1px solid navy; */
+                height: 40px;
+                &__list{
+                    margin: 5px;
+                    list-style: none;
+                    display: flex;
+                    /* border: 1px solid green; */
+                    &__arg{
+                        &__link{
+                            margin-right: 30px;
+                            text-decoration: none;
+                            color: grey;
+                            text-transform: uppercase;
+                            font-family: 'Inconsolata', monospace;
+                            letter-spacing: 2px;
+                        }
+                    }
+                }
+            }
+            &__menu{
+                display: none;
+            }
+        }
     }
 }
 
