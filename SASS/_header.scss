@@ -1,0 +1,110 @@
+.header{
+/*     border: 1px solid red; */
+    padding: 15px;
+}
+
+.box1{
+    color: grey;
+    &__text1{
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+        /* border: 1px solid greenyellow; */
+        font-size: 0.8rem;
+        letter-spacing: 2px;
+    }
+    &__cont{
+        color: grey;
+        /* border: 1px solid blue; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        &__tel{
+            width: 15px;
+            margin-top: -15px;
+        }
+        &__text2{
+            letter-spacing: 1px;
+        }
+    }
+    &__directitle{
+        text-decoration: none;
+        display: block;
+        width: 270px;
+        /* border: 1px solid red; */
+        margin: 0 auto;
+    }
+    &__title{
+        color: rgb(66, 65, 65);
+        text-shadow: 1px 1.5px 1px hwb(0 0% 100% / 0.436);
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 3rem;
+        text-align: center;
+    }
+    &__cont2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        &__user{
+            width: 15px;
+            height: 15px;
+        }
+        &__user:hover{
+            cursor: pointer;
+        }
+        &__cart{
+            border: 1px solid rgb(220, 219, 219);
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            padding: 10px 40px;
+            color: black;
+            &__text{
+                margin: 5px 0;
+            }
+            &__img{
+                width: 25px;
+            }
+        }
+        &__cart:hover{
+            cursor: pointer;
+        }
+    }
+    &__liner{
+        border-bottom: 1px solid rgb(220, 219, 219);
+        width: 90%;
+        margin: 20px auto;
+    }
+    &__cont3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* border: 1px solid firebrick; */
+        width: 45%;
+        margin: 0 auto;
+        &__menu{
+            border: 1px solid rgb(220, 219, 219);
+            border-radius: 5px;
+            padding: 5px 7px;
+            width: 60px;
+            height: 48px;
+            margin: 0 auto;
+        }
+        &__menu:hover{
+            cursor: pointer;
+            /* border: 2px solid black; */
+        }
+        &__lupa{
+            width: 30px;
+        }
+        &__lupa:hover{
+            cursor: pointer;
+        }
+    
+    }
+}
+
