@@ -2,6 +2,7 @@
     background-color: rgb(18, 18, 18);
     color: white;
     padding: 40px 10px;
+    font-family: 'Inconsolata', monospace;
 }
 
 .sec1{
@@ -62,23 +63,32 @@
                 text-decoration: none;
                 padding: 0;
             }
+            &__link:hover{
+                color: white;
+                transition: all 1s;
+            }
         }
     }
 }
 
 .sec4{
-    position: relative;
+    &__correo{
+        position: relative;
+        /* border: 1px solid red; */
+    }
     &__email{
         background-color: transparent;
         border: 1px solid #616263;
         outline: none;
         padding: 10px;
         width: 100%;
+        color: white;
     }
     &__img{
         position: absolute;
         right: 10px;
-        top: 125px;
+        top: 50%;
+        transform: translateY(-50%);
         width: 15px;
     }
 }
