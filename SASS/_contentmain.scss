@@ -31,11 +31,11 @@
                 flex-direction: column;
                 align-items: center;
                 &__t1{
-                    font-size: 3rem;
+                    font-size: 2rem;
                     font-family: 'Inconsolata', monospace;
                 }
                 &__t2{
-                    font-size: 1rem;
+                    font-size: 0.7rem;
                     font-weight: 400;
                     letter-spacing: 4px;
                 }
@@ -43,14 +43,27 @@
                     text-decoration: none;
                     color: white;
                     border: 2px solid #ff4e00;
-                    padding: 10px 25px;
+                    padding: 5px 20px;
                     text-transform: uppercase;
-                    font-weight: 400;
+                    font-weight: 200;
                     letter-spacing: 3px;
+                    font-size: 0.7rem;
                 }
                 &__link:hover{
                     background-color: #ff4e00;
                     transition: 0.5s all;
+                }
+                @media (min-width: 500px) {
+                    &__t1{
+                        font-size: 3rem;
+                    }
+                    &__t2{
+                        font-size: 1rem;
+                    }
+                    &__link{
+                        padding: 10px 25px;
+                        font-size: 1rem;
+                    }
                 }
             }
         }

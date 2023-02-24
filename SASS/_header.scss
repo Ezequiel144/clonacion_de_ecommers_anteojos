@@ -206,6 +206,7 @@
                     list-style: none;
                     display: flex;
                     /* border: 1px solid green; */
+                    position: relative;
                     &__arg{
                         .selec{
                             color: #ff4e00;
@@ -227,6 +228,19 @@
             &__menu{
                 display: none;
             }
+        }
+        /* .subfecture{
+            border: 1px solid orangered;
+            position: absolute;
+            top: 30px;
+            left: 0;
+            height: 450px;
+            width: 550px;
+            background-color: white;
+            
+        } */
+        .subfecture{
+            border: 1px solid orange;
         }
     }
 }
