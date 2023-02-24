@@ -133,10 +133,61 @@
                     text-transform: uppercase;
                     font-family: 'Inconsolata', monospace;
                     letter-spacing: 2px;
+                    /* border: 1px solid blue; */
                 }
                 &__link:hover{
                     color: #ff4e00;
                 }
+            }
+        }
+        .subfecture{
+            /* border: 1px solid rgb(201, 199, 199);
+            margin: 5px 80px;
+            padding: 40px 20px; */
+            font-family: 'Inconsolata', monospace;
+            height: 0;
+            overflow: hidden;
+            transition: all 0.2s;
+            &__sec1{
+                &__part1{
+                    &__title{
+                        color: black;
+                        font-size: 1.5rem;
+                        font-weight: 500;
+                        margin: 0;
+                        /* border: 1px solid orange; */
+                    }
+                    &__text{
+                        list-style: none;
+                        padding: 10px 0;
+                        /* border: 1px solid blue; */
+                        &__item{
+                            &__link{
+                                text-decoration: none;
+                                color: grey;
+                            }
+                        }
+                    }
+                }
+            }
+            &__sec2{
+                &__part1{
+                    /* border: 1px solid red; */
+                    &__img{
+                        padding: 5px 0;
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+        .despleg:hover{
+            .subfecture{
+                height: 100%;
+                overflow: visible;
+                border: 1px solid rgb(201, 199, 199);
+                margin: 5px 80px;
+                padding: 40px 20px;
             }
         }
     }

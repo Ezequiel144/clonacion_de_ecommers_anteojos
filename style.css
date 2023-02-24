@@ -136,9 +136,50 @@
   text-transform: uppercase;
   font-family: "Inconsolata", monospace;
   letter-spacing: 2px;
+  /* border: 1px solid blue; */
 }
 .box1 .nav2__list__arg__link:hover {
   color: #ff4e00;
+}
+.box1 .nav2 .subfecture {
+  /* border: 1px solid rgb(201, 199, 199);
+  margin: 5px 80px;
+  padding: 40px 20px; */
+  font-family: "Inconsolata", monospace;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.2s;
+}
+.box1 .nav2 .subfecture__sec1__part1__title {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+  /* border: 1px solid orange; */
+}
+.box1 .nav2 .subfecture__sec1__part1__text {
+  list-style: none;
+  padding: 10px 0;
+  /* border: 1px solid blue; */
+}
+.box1 .nav2 .subfecture__sec1__part1__text__item__link {
+  text-decoration: none;
+  color: grey;
+}
+.box1 .nav2 .subfecture__sec2__part1 {
+  /* border: 1px solid red; */
+}
+.box1 .nav2 .subfecture__sec2__part1__img {
+  padding: 5px 0;
+  width: 100%;
+  object-fit: cover;
+}
+.box1 .nav2 .despleg:hover .subfecture {
+  height: 100%;
+  overflow: visible;
+  border: 1px solid rgb(201, 199, 199);
+  margin: 5px 80px;
+  padding: 40px 20px;
 }
 .box1 .mostrar {
   height: 100%;
