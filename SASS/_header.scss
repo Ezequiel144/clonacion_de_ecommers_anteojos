@@ -134,6 +134,10 @@
                     font-family: 'Inconsolata', monospace;
                     letter-spacing: 2px;
                     /* border: 1px solid blue; */
+                    font-size: 0.8rem;
+                    @media (min-width:800px) {
+                        font-size: 1rem;
+                    }
                 }
                 &__link:hover{
                     color: #ff4e00;
@@ -186,8 +190,11 @@
                 height: 100%;
                 overflow: visible;
                 border: 1px solid rgb(201, 199, 199);
-                margin: 5px 80px;
+                margin: 5px 0px;
                 padding: 40px 20px;
+                @media (min-width:600px) {
+                    margin: 5px 80px;
+                }
             }
         }
     }
@@ -199,6 +206,7 @@
     @media (min-width:800px) {
         position: relative;
         padding: 15px;
+
         &__800px{
             /* border: 1px solid gray; */
             display: inline-block;

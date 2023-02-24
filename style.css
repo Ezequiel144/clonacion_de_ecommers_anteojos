@@ -137,6 +137,12 @@
   font-family: "Inconsolata", monospace;
   letter-spacing: 2px;
   /* border: 1px solid blue; */
+  font-size: 0.8rem;
+}
+@media (min-width: 800px) {
+  .box1 .nav2__list__arg__link {
+    font-size: 1rem;
+  }
 }
 .box1 .nav2__list__arg__link:hover {
   color: #ff4e00;
@@ -178,8 +184,13 @@
   height: 100%;
   overflow: visible;
   border: 1px solid rgb(201, 199, 199);
-  margin: 5px 80px;
+  margin: 5px 0px;
   padding: 40px 20px;
+}
+@media (min-width: 600px) {
+  .box1 .nav2 .despleg:hover .subfecture {
+    margin: 5px 80px;
+  }
 }
 .box1 .mostrar {
   height: 100%;
