@@ -435,6 +435,58 @@
   cursor: pointer;
 }
 
+.reloj {
+  padding: 10px 25px;
+  font-family: "Inconsolata", monospace;
+  /* border: 1px solid red; */
+}
+.reloj__img {
+  position: relative;
+  background-image: url("./img/girls-g1ca5493b1_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+  min-height: 450px;
+  /* border: 1px solid red; */
+}
+@media (min-width: 800px) {
+  .reloj__img {
+    background-position: top;
+  }
+}
+.reloj__img__text {
+  color: white;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  /* border: 1px solid blue; */
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.525);
+  text-align: center;
+}
+.reloj__img__text__cont {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  /* border: 1px solid green; */
+}
+.reloj__img__text__cont__numb {
+  font-size: 2rem;
+  margin-right: 30px;
+  /* border: 1px solid olive; */
+}
+.reloj__img__text__cont__mes {
+  /* border: 1px solid reg; */
+}
+.reloj__img__text__cont__mes__fech {
+  margin-right: 40px;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
 .footer {
   background-color: rgb(18, 18, 18);
   color: white;
