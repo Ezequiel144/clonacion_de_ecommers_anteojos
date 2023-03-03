@@ -254,3 +254,49 @@
         background-color:#ff4e00;
     }
 }
+
+.testimonios{
+    padding: 35px 0px;
+    margin: 0 25px;
+    background-color: rgba(221, 216, 216, 0.349);
+    font-family: 'Inconsolata', monospace;
+    @media (min-width:600px) {
+        height: 300px;
+    }
+    &__title{
+        text-align: center;
+    }
+    &__subtitle{
+        text-align: center;
+        font-size: 1.2rem;
+        /* border: 1px solid red; */
+        margin: 15px 0;
+        span{
+            color: grey;
+        }
+        &__text1{
+            margin: 0;
+        }
+        &__text2{
+            color: #ff4e00;
+            margin: 0;
+        }
+    }
+    &__parrafo{
+        padding: 0 45px;
+        text-align: center;
+        color: grey;
+        /* border: 1px solid red; */
+        @media (min-width:600px) {
+            /* border: 1px solid red; */
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+}
+
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    /* color: red; */
+    background-color: #ff4e00;
+    padding: 20px;
+}

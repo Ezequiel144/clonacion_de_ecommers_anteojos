@@ -557,6 +557,56 @@
   background-color: #ff4e00;
 }
 
+.testimonios {
+  padding: 35px 0px;
+  margin: 0 25px;
+  background-color: rgba(221, 216, 216, 0.349);
+  font-family: "Inconsolata", monospace;
+}
+@media (min-width: 600px) {
+  .testimonios {
+    height: 300px;
+  }
+}
+.testimonios__title {
+  text-align: center;
+}
+.testimonios__subtitle {
+  text-align: center;
+  font-size: 1.2rem;
+  /* border: 1px solid red; */
+  margin: 15px 0;
+}
+.testimonios__subtitle span {
+  color: grey;
+}
+.testimonios__subtitle__text1 {
+  margin: 0;
+}
+.testimonios__subtitle__text2 {
+  color: #ff4e00;
+  margin: 0;
+}
+.testimonios__parrafo {
+  padding: 0 45px;
+  text-align: center;
+  color: grey;
+  /* border: 1px solid red; */
+}
+@media (min-width: 600px) {
+  .testimonios__parrafo {
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  /* color: red; */
+  background-color: #ff4e00;
+  padding: 20px;
+}
+
 .footer {
   background-color: rgb(18, 18, 18);
   color: white;
