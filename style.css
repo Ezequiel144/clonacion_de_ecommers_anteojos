@@ -670,6 +670,122 @@
   bottom: -50px;
 }
 
+.resenas {
+  padding: 35px 25px;
+  font-family: "Inconsolata", monospace;
+  /* border: 1px solid blue; */
+}
+@media (min-width: 1000px) {
+  .resenas {
+    display: flex;
+    flex-direction: row;
+    margin: 0 10px;
+  }
+}
+.resenas__sec {
+  /* border: 1px solid red; */
+  text-align: center;
+  margin: 20px 0;
+}
+.resenas__sec__img {
+  width: 40px;
+  margin: 5px 0;
+}
+.resenas__sec__text {
+  /* border: 1px solid rebeccapurple; */
+  margin: 10px 0;
+}
+.resenas__sec__text__title {
+  font-size: 1.3rem;
+  padding: 5px 0 0 0;
+}
+.resenas__sec__text__parrafo {
+  color: grey;
+  /* border: 1px solid red; */
+  width: 80%;
+  margin: 20px auto;
+  font-size: 1rem;
+}
+.resenas__sec__text__link {
+  text-decoration: none;
+  color: black;
+  border: 2px solid #ff4e00;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: 3px;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+.resenas__sec__text__link:hover {
+  color: white;
+  background-color: #ff4e00;
+  transition: 0.5s all;
+}
+
+.servicies {
+  padding: 25px 20px;
+  margin: 20px 25px;
+  font-family: "Inconsolata", monospace;
+  background-color: rgba(221, 216, 216, 0.349);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+@media (min-width: 800px) {
+  .servicies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .servicies__part__img {
+    margin-right: 10px;
+  }
+}
+@media (min-width: 1000px) {
+  .servicies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+}
+.servicies__part {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 15px;
+  margin: 10px 0;
+}
+@media (min-width: 1100px) {
+  .servicies__part {
+    margin-right: 20px;
+  }
+}
+.servicies__part__img {
+  border: 2px solid black;
+  border-radius: 100%;
+  padding: 20px 22px;
+}
+.servicies__part__img .bi:hover {
+  color: #ff4e00;
+}
+.servicies__part__text {
+  /* border: 1px solid greenyellow; */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.servicies__part__text__title {
+  font-size: 1rem;
+  color: #ff4e00;
+}
+.servicies__part__text__p {
+  font-size: 0.8rem;
+  color: grey;
+}
+
 .footer {
   background-color: rgb(18, 18, 18);
   color: white;

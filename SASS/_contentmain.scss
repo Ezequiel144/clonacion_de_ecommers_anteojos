@@ -364,3 +364,115 @@
         
     }
 }
+
+.resenas{
+    padding: 35px 25px;
+    font-family: 'Inconsolata', monospace;
+    /* border: 1px solid blue; */
+    
+    @media (min-width:1000px) {
+        display: flex;
+        flex-direction: row;
+        margin: 0 10px;
+    }
+    &__sec{
+        /* border: 1px solid red; */
+        text-align: center;
+        margin: 20px 0;
+        &__img{
+            width:40px;
+            margin: 5px 0;
+        }
+        &__text{
+            /* border: 1px solid rebeccapurple; */
+            margin: 10px 0;
+            &__title{
+                font-size: 1.3rem;
+                padding: 5px 0 0 0;
+            }
+            &__parrafo{
+                color: grey;
+                /* border: 1px solid red; */
+                width: 80%;
+                margin: 20px auto;
+                font-size: 1rem;
+            }
+            &__link{
+                text-decoration: none;
+                color: black;
+                border: 2px solid #ff4e00;
+                padding: 5px 20px;
+                text-transform: uppercase;
+                font-weight: 200;
+                letter-spacing: 3px;
+                font-size: 1rem;
+                margin: 10px 0;
+            }
+            &__link:hover{
+                color: white;
+                background-color: #ff4e00;
+                transition: 0.5s all;
+            }
+        }
+    }
+}
+
+.servicies{
+    padding: 25px 20px;
+    margin: 20px 25px;
+    font-family: 'Inconsolata', monospace;
+    background-color: rgba(221, 216, 216, 0.349);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    @media (min-width:800px) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        &__part{
+            &__img{
+                margin-right: 10px;
+            }
+        }
+    }
+    @media (min-width:1000px){
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    &__part{
+        /* border: 1px solid red; */
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 15px;
+        margin: 10px 0;
+        @media (min-width:1100px){
+            margin-right: 20px;
+        }
+        &__img{
+            border: 2px solid black;
+            border-radius: 100%;
+            padding: 20px 22px;
+            .bi:hover{
+                color: #ff4e00;
+
+            }
+        }
+        &__text{
+            /* border: 1px solid greenyellow; */
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            &__title{
+                font-size: 1rem;
+                color: #ff4e00;
+            }
+            &__p{
+                font-size: 0.8rem;
+                color: grey;
+            }
+        }
+    }
+}
