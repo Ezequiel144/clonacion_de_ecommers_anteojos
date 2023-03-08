@@ -10,6 +10,23 @@
 </head>
 <body>
     <div class="conteiner">
+        <div class="cartdiv">
+            <img class="cartdiv__x" src="./img/x.png" alt="">
+            <div class="cartdiv__content">
+                <p class="cartdiv__content__text">Opium(grey)</p>
+                <div class="cartdiv__content__cont">
+                    <input class="cartdiv__content__cont__number" min="1" type="number">
+                    <button class="cartdiv__content__cont__x" >X</button>
+                    <p class="cartdiv__content__cont__price">$650.00</p>
+                </div>
+            </div>
+            <div class="cartdiv__final">
+                <p class="cartdiv__final__text">
+                    subtotal: $650.00 USD
+                </p>
+                <a href="#" class="cartdiv__final__textcolor">CHECK OUT</a>
+            </div>
+        </div>
         <header class="header">
             <div class="box1">
                 <div class="box1__800px">
@@ -177,38 +194,6 @@
             
         </header>
         <main class="main">
-                <!-- <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="./img/pexels-jess-bailey-designs-1435405.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>First slide label</h5>
-                      <p>Some representative placeholder content for the first slide.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./img/chica-tienda-mujer-camiseta-blanca.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block text-center">
-                      <h5>hola</h5>
-                      <p>Some representative placeholder content for the second slide.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./img/retrato-nina-hermosa-sonriente-su-novio-guapo-ropa-casual-verano-gafas-sol-abrazando.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Third slide label</h5>
-                      <p>Some representative placeholder content for the third slide.</p>
-                    </div>
-                  </div>
-                </div> -->
-                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div> -->
             <div class="carrusel">
                 <div class="carrusel__content">
                     <div class="carrusel__content__img">
@@ -247,7 +232,7 @@
                                 <p class="product__part1__prod__cata__text__t1">Farenheit(Grey)</p>
                                 <span class="product__part1__prod__cata__text__price">$575.00</span>
                                 <!--ver como poner las estrellas-->
-                                <img class="product__part1__prod__cata__text__cart" src="./img/add-to-cart.png" alt="cart-shop">
+                                <img id="cart1" class="product__part1__prod__cata__text__cart" src="./img/add-to-cart.png" alt="cart-shop">
                             </div>
                         </div>
                     </div>
@@ -258,7 +243,7 @@
                                 <p class="product__part1__prod__cata__text__t1">Opium</p>
                                 <span class="product__part1__prod__cata__text__price">$324.00</span>
                                 <!--ver como poner las estrellas-->
-                                <img class="product__part1__prod__cata__text__cart" src="./img/add-to-cart.png" alt="cart-shop">
+                                <img id="cart2" class="product__part1__prod__cata__text__cart" src="./img/add-to-cart.png" alt="cart-shop">
                             </div>
                         </div>
                     </div>
@@ -269,7 +254,7 @@
                                 <p class="product__part1__prod__cata__text__t1">Kenneth Cole</p>
                                 <span class="product__part1__prod__cata__text__price">$575.00</span>
                                 <!--ver como poner las estrellas-->
-                                <img class="product__part1__prod__cata__text__cart" src="./img/add-to-cart.png" alt="cart-shop">
+                                <img id="cart3" class="product__part1__prod__cata__text__cart" src="./img/add-to-cart.png" alt="cart-shop">
                             </div>
                         </div>
                     </div>
@@ -280,7 +265,7 @@
                                 <p class="product__part1__prod__cata__text__t1">Farenehit Oval</p>
                                 <span class="product__part1__prod__cata__text__price">$325.00</span>
                                 <!--ver como poner las estrellas-->
-                                <img class="product__part1__prod__cata__text__cart" src="./img/add-to-cart.png" alt="cart-shop">
+                                <img id="cart4" class="product__part1__prod__cata__text__cart" src="./img/add-to-cart.png" alt="cart-shop">
                             </div>
                         </div>
                     </div>

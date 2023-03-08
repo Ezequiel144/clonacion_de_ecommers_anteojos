@@ -1,0 +1,93 @@
+.conteiner{
+    position: relative;
+}
+.cartdiv{
+    display: none;
+    font-family: 'Inconsolata', monospace;
+    padding: 8px 15px;
+    position: fixed;
+    top: 100px;
+    right: 30px;
+    width: 40%;
+    background-color: white;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 2px rgb(51, 51, 51);
+    @media (min-width:600px) {
+        width: 400px;
+    }
+    @media (max-width:600px) {
+        width: 70%;
+        top: 250px;
+        &__content{
+            overflow:scroll;
+            &__cont{
+                width: 300px;
+                gap: 15px;
+                &__x{
+                    padding: 5px;
+                }
+            }
+        }
+    }
+    &__x{
+        width: 10px;
+        margin-bottom: 10px;
+    }
+    &__x:hover{
+        cursor: pointer;
+    }
+    &__content{
+        border: 1px solid rgb(194, 191, 191);
+        border-radius: 5px;
+        height: 80px;
+        padding: 10px 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__text{
+            margin-top: 15px;
+        }
+        &__cont{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /* border: 1px solid greenyellow; */
+            width: 40%;
+            &__number{
+                height: 30px;
+                width: 40px;
+                border-radius: 5px;
+                border: 1px solid rgb(194, 191, 191);
+                text-align: center;
+            }
+            &__number::-webkit-inner-spin-button{
+                -webkit-appearance: none;
+            }
+            &__x{
+                height: 20px;
+                width: 20px;
+                font-size: 0.6rem;
+                border: 0;
+                background-color: rgb(215, 209, 209);
+                color: white;
+            }
+            &__price{
+                margin-top: 15px;
+            }
+        }
+    }
+    &__final{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        &__text{
+            font-weight: 700;
+        }
+        &__textcolor{
+            color: red;
+            font-weight: 700;
+            text-decoration: none;
+        }
+    }
+}
